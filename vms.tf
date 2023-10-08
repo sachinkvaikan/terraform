@@ -1,7 +1,7 @@
 # main.tf
 
 provider "aws" {
-  region = "your-region"
+  region = "us-east-1"
 }
 
 resource "aws_instance" "micro_instance_1" {
